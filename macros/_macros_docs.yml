@@ -1,0 +1,8 @@
+macros:
+  - name: cents_to_dollars
+    description: Converts an amount of cents to dollars and rounds to the number of decimal places provided (defaults to 2)
+    arguments:
+      - name: column_name
+        description: the name of the column that contains the amount of cents to be converted to dollars
+      - name: decimals
+        description: the number of decimals you want to round to. Defaults to 2.
